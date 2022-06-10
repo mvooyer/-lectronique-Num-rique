@@ -41,10 +41,12 @@ def table_or_exclu(entr):
         sortie[i] = x
     return sortie
 
-print(table_and(entrees))
-print(table_or(entrees))
-print(table_or_exclu(entrees))
+# print(table_and(entrees))
+# print(table_or(entrees))
+# print(table_or_exclu(entrees))
 
+
+# ouvre/cree un fichier csv et ecrit les entrees et sorties 
 with open('sortie_4_entrees.csv', 'w', newline='') as csvfile:
     noms.append('Sortie AND \t')
     noms.append('Sortie OR \t')
