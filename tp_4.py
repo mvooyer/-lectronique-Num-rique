@@ -31,3 +31,7 @@ print(bin(b3))
 plt.plot([i for i in range(2**N-1)], s)
 plt.title('S(t)')
 plt.show()
+
+
+# Question 4
+# vraiment tout pareil, mais pour 4 bascules (N = 4)
